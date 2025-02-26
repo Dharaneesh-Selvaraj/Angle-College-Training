@@ -1,0 +1,16 @@
+ Navigation bar using
+=>list
+=>anchor
+=>HEADER
+=>Flex
+=>box MODEL
+=>Hover
+
+Card using 
+=>CONTAINER
+=>image
+=>text
+=>sizing property such as (%,px)
+=>Annimation using Scale and Transition , Transform
+
+Connecing of multipage pages using Anchor tag
