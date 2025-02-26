@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <style>
+        *{
+            margin: 0;
+        }
+       header ul{
+            background-color: rgb(238, 238, 228);
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            padding: 10px;   
+        }
+
+        header a{
+            text-decoration: none;
+            color: black;
+        }
+        .cards .card{
+            border: 1px solid black;
+            border-radius: 10px;
+            height: 400px;
+            width: 250px;
+            cursor: pointer;
+        }
+
+        .cards{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .card img{
+            width: 100%;
+            height: 80%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .card:hover{
+            transition-duration: 0.5s;
+           transform: scale(1.1);
+        }
+
+        main{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul >
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./packages.html">Packages</a></li>
+            <li><a href="./indvidualplan.html">Indivdual Plan</a></li>
+            <li><a href="./about.html">About</a></li>
+        </ul>
+    </header> 
+    <main>
+        <div class="cards">
+            <div class="card">
+                <img src="https://th.bing.com/th/id/OIP.lNzeKsLOr38COFNNRHY3bgHaE8?rs=1&pid=ImgDetMain" alt="">
+                <h2>Wedding Photography</h2>
+            </div>
+            <div class="card">
+                <img src="https://www.ripeinsurance.co.uk/media/129458/istock-496154506.jpg?width=500&height=298.6607142857143" alt="">
+                <h2>Wildlife Photography</h2>
+            </div>
+            <div class="card">
+                <img src="https://shotkit.com/wp-content/uploads/2020/09/event-photography-feat.jpg" alt="">
+                <h2>Event Photography</h2>
+            </div>
+            
+        </div>
+    </main>
+    
+    
+    
+</body>
+</html>
