@@ -1,0 +1,6 @@
+Navigation Bar 
+Cards 
+Courusal
+Customizable Buttons
+Colors Using Tailwind
+Customization using Tailwind 
