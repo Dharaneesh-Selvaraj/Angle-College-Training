@@ -9,7 +9,7 @@
             margin: 0;
         }
         #container{
-            transition-duration: 1s;
+            
             position: relative;
             background-image: url('./Images/joel-the-last-of-us-7680x4320-21484.jpg');
             height: 100vh;
@@ -18,7 +18,6 @@
 
         #container .prev,.next{
             height: 30px;
-            
         }
 
         .prev{
@@ -42,14 +41,23 @@
             display: flex;
         }
         .miniImg img{
-            height: 40px;
+            transition-duration: 1s;
+            height: 100px;
             opacity: 0.5;
+        }
+
+        
+        .blur{
+            height: 100%;
+            width: 50%;
+            backdrop-filter: blur(10px);
+            
         }
 
         
 
         .miniImg .active{
-            transition-duration: 1s;
+            
             z-index: 1;
             scale: 1.1;   
             opacity: 1;
@@ -58,6 +66,7 @@
 </head>
 <body>
     <div id="container">
+        
         <img class="prev" onclick="prev()" src="https://static.vecteezy.com/system/resources/previews/010/146/774/original/arrow-icon-sign-symbol-design-free-png.png" alt="">
         <img class="next" onclick="next()" src="https://static.vecteezy.com/system/resources/previews/010/146/774/original/arrow-icon-sign-symbol-design-free-png.png" alt="">
 
@@ -66,7 +75,7 @@
             <img class="minImg active" src="./Images/joel-the-last-of-us-7680x4320-21484.jpg" alt="">
             <img class="minImg" src="./Images/pubg-blindspot-7680x4320-21507.jpg" alt="">
             <img class="minImg" src="./Images/marvel-1943-rise-of-5120x2880-15904.jpg" alt="">
-            <img class="minImg" src="./Images/mortal-kombat-2021-movies-scorpion-sub-zero-black-7680x4600-4712.jpg" alt="">
+            <img class="minImg" src='./Images/wonder-woman-batman-7680x4320-21668.jpg' alt="">
             <img class="minImg" src="./Images/the-batman-2022-movies-red-background-dark-background-dc-7840x4320-7414.jpg" alt="">
         </div>
     </div>
