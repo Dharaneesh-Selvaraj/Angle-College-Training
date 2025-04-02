@@ -1,0 +1,12 @@
+How to use react
+Why should we move to react
+what is jsx
+real dom vs virtual dom
+what is hmr
+CRA vs VITE
+Function Component
+Import and Export
+Rendering a Component
+Tailwind Configuration
+DasiUI Configuration
+working with Components

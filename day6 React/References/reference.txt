@@ -1,0 +1,3 @@
+TAILWIND ===> https://tailwindcss.com/docs/installation/using-vite
+DESIUI   ===> https://daisyui.com/docs/install/vite/
+HOVERDEV ===> https://www.hover.dev/
