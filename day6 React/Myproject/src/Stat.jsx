@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import {Outlet} from 'react-router-dom'
 
 const ShuffleHero = () => {
   return (
@@ -20,6 +21,7 @@ const ShuffleHero = () => {
         </button>
       </div>
       <ShuffleGrid />
+      <Outlet />
     </section>
   );
 };

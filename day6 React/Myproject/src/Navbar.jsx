@@ -1,7 +1,9 @@
+import { Outlet } from "react-router-dom";
+
 function Header()
 {
     return(
-        <div className="navbar bg-white text-black shadow-sm">
+        <div className="navbar bg-white text-black shadow-sm w-[100%]">
   <div className="flex-1">
     <a className="btn btn-ghost text-xl">daisyUI</a>
   </div>
@@ -47,7 +49,9 @@ function Header()
       </ul>
     </div>
   </div>
+  <Outlet />
 </div>
+
     )
 }
 
