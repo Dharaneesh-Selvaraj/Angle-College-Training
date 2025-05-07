@@ -4,7 +4,6 @@ const mysql = require('mysql2')
 const bodyparser = require('body-parser')
 const cors = require('cors')
 
-
 app.use(bodyparser.json())
 app.use(cors())
 
